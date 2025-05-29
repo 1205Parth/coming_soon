@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8eadd;
+  color: #1d1d1f;
+  text-align: center;
+}
+
+.container {
+  padding: 30px;
+}
+
+.subheading {
+  font-weight: bold;
+}
+
+.password-link {
+  display: block;
+  margin: 10px 0;
+  color: #000;
+  text-decoration: underline;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.images img {
+  height: 250px;
+  width: 150px;
+  object-fit: cover;
+  margin: 0 5px;
+}
+
+.middle-img {
+  position: relative;
+}
+
+.note {
+  margin-bottom: 10px;
+}
+
+.email-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.email-form input {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #999;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+}
+
+.email-form button {
+  padding: 10px 20px;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+footer {
+  font-size: 14px;
+}

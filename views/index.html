@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Date Delights</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div class="container">
+        <img src="Oats Date Delight (5).png" alt="Date Delights Logo" class="logo" />
+        <h1>Date Delights</h1>
+        <p class="subheading">WE'RE ON OUR WAY!</p>
+        <a href="#" class="password-link" onclick="showComingSoon(event)">Access with a password</a>
+
+        <div class="images">
+            <img src="icecream.jpeg" alt="Product 1" />
+            <img src="Cone of vanilla ice cream melting and dripping, on….jpeg" alt="Product 2" class="middle-img" />
+            <img src="This Cardamom Date Shake is an easy 5 ingredient….jpeg" alt="Product 3" />
+        </div>
+
+        <h2>FUEL YOUR DAY IN ONE BITE.</h2>
+        <p class="note">Get notified first.</p>
+
+        <form action="/subscribe" method="POST" class="email-form">
+            <input type="email" name="email" placeholder="E-mail" required />
+            <button type="submit">→</button>
+        </form>
+
+        <footer>
+            <p>This store will be powered by <strong>varni_exports</strong></p>
+            <p>Is this your store? <a href="#"onclick="showComingSoon(event)">Log in here</a></p>
+        </footer>
+    </div>
+
+    <script>
+        function showComingSoon(event) {
+            event.preventDefault();
+            alert("This feature is coming soon!");
+        }
+    </script>
+</body>
+
+</html>
